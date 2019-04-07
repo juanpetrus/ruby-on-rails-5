@@ -1,2 +1,25 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $gray-light;
+
+  a{
+    color: $gray;
+    &:hover{
+      color: $gray-darker;
+    }
+  }
+  small{
+    float: left;
+  }
+  ul{
+    float: right;
+    li{
+      float: right;
+      margin-left: 15px;
+    }
+  }
+}
