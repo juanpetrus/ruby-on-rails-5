@@ -1,0 +1,14 @@
+<p id="notice" class="alert alert-success"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @contact.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @contact.phone %>
+</p>
+
+<%= link_to 'Edit', edit_contact_path(@contact), class: 'btn btn-primary' %> |
+<%= link_to 'Back', contacts_path, class: 'btn  btn-primary' %>
